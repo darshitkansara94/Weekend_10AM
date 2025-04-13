@@ -335,11 +335,51 @@ Functions :
 									as Employee_Id
 								from tbl_RegistrationMaster
 
+						reverse :
+							Display a string into reverese order.
 
+							-- Syntax :
+								Select REVERSE(value) from tbl_Name
 
+							-- Example :
+								Select REVERSE('Hello') -- olleH
+								
+								Select REVERSE(Registration_FirstName)
+								from tbl_RegistrationMaster
 
-						reverse
-						char
+						char :
+							When we want to replace special type of char in betweeen 
+							string then we can use char function.
+
+							-- Syntax :
+								Select CHAR(Number)
+
+							-- Example :
+								Select CHAR(65) --
+								
+						lower :
+							Lower return the string into lower case.
+
+							-- Syntax :	
+								Select LOWER(value) from tbl_Name
+
+							-- Example :
+								Select LOWER('aBcDEFGHi') -- abcdefghi
+
+								Select LOWER(Registration_FirstName)
+								from tbl_RegistrationMaster
+
+						upper :
+							Convert a text into upper case.
+
+							-- Syntax :
+								Select UPPER(value) from tbl_name
+
+							-- Example :
+								Select UPPER('abcDFGHi') -- ABCDFGHI
+
+								Select UPPER(Registration_FirstName)
+								from tbl_RegistrationMaster
 
 				3. Date functions
 
